@@ -1,0 +1,37 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(login-back.jpg);
+    background-size:100%
+  }
+  div{
+    background-color: rgba(249, 249, 249, 0.162);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: gold;
+  }
+  input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  button{
+    background-color: green;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 15px;
+    color: white;
+    font-size: large;
+  }
+  button:hover{
+    background-color: rgb(4, 213, 4);
+  }
+  a{color:inherit;
+  text-decoration: none;}
+  a:hover{color:inherit;
+  text-decoration: none;}

@@ -1,0 +1,78 @@
+.menu {
+    background-color: #000;
+    text-align: center;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none; 
+    margin: 150px;
+    display: inline;
+}
+li a {
+    padding: 5px 10px; 
+    margin:0;
+    border: 2px solid rgba(232, 235, 4, 0.866); 
+    background: rgb(145, 153, 0);
+    text-decoration: none;
+    color:#FFF;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+li a:hover {
+background: #CCC;
+color: #000; 
+border-color: #000;
+}
+.Saldo{
+    position: absolute;
+    top: 30%;
+    background-color: rgba(192, 192, 192, 0.253);
+    padding: 10px;
+    border-radius: 15%;
+    left: 10%;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    font-weight: bolder;
+    color:silver
+}
+table{
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    padding: 25px;
+    border-radius: 15px;
+}
+body{
+    background-image: url("triangle-solid-black-gold-4k-wk.jpg");
+    background-size: auto;
+}
+div{
+    padding: 15px;
+}
+tr{
+    height: 50px;
+    border: none;
+}
+td:hover{
+    background-color: rgba(223, 164, 14, 0.988);
+    color:white;
+}
+td{
+    width: 200px;
+    border:2px solid rgb(245, 245, 5);
+    background-color: rgba(255, 255, 255, 0.137);
+    padding: 15px;
+    color: yellow;
+}
+th{
+    background-color: rgba(206, 180, 8, 0.81);
+    text-align: center;
+    border-color: black;
+    border: 2px;    
+}
